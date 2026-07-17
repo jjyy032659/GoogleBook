@@ -1,0 +1,123 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 8,
+  "items": [
+    {
+      "id": "mock001",
+      "volumeInfo": {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "authors": ["J. K. Rowling"],
+        "publisher": "Bloomsbury",
+        "publishedDate": "1997-06-26",
+        "description": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry.",
+        "pageCount": 223,
+        "categories": ["Fiction"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780747532699-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock002",
+      "volumeInfo": {
+        "title": "The Great Gatsby",
+        "authors": ["F. Scott Fitzgerald"],
+        "publisher": "Charles Scribner's Sons",
+        "publishedDate": "1925-04-10",
+        "description": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted gin was the national drink and sex the national obsession.",
+        "pageCount": 180,
+        "categories": ["Fiction", "Classics"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock003",
+      "volumeInfo": {
+        "title": "Clean Code",
+        "authors": ["Robert C. Martin"],
+        "publisher": "Prentice Hall",
+        "publishedDate": "2008-08-01",
+        "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way.",
+        "pageCount": 464,
+        "categories": ["Computers"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock004",
+      "volumeInfo": {
+        "title": "The Hobbit",
+        "authors": ["J. R. R. Tolkien"],
+        "publisher": "George Allen & Unwin",
+        "publishedDate": "1937-09-21",
+        "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure.",
+        "pageCount": 310,
+        "categories": ["Fiction", "Fantasy"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780345339683-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock005",
+      "volumeInfo": {
+        "title": "Eloquent JavaScript",
+        "authors": ["Marijn Haverbeke"],
+        "publisher": "No Starch Press",
+        "publishedDate": "2018-12-04",
+        "description": "JavaScript lies at the heart of almost every modern web application. This book is a dive into the language itself, showing you how to write beautiful, effective code.",
+        "pageCount": 472,
+        "categories": ["Computers"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9781593279509-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock006",
+      "volumeInfo": {
+        "title": "Pride and Prejudice",
+        "authors": ["Jane Austen"],
+        "publisher": "T. Egerton",
+        "publishedDate": "1813-01-28",
+        "description": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. So begins one of the most beloved novels in English literature, following the spirited Elizabeth Bennet.",
+        "pageCount": 432,
+        "categories": ["Fiction", "Classics"],
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg"
+        }
+      }
+    },
+    {
+      "id": "mock007",
+      "volumeInfo": {
+        "title": "A Mysterious Manuscript",
+        "authors": ["Anonymous"],
+        "publishedDate": "1901",
+        "description": "An obscure text with very little information available. This entry deliberately has no cover image so you can test your placeholder fallback.",
+        "language": "en"
+      }
+    },
+    {
+      "id": "mock008",
+      "volumeInfo": {
+        "title": "Untitled Draft",
+        "publishedDate": "2020-01-01",
+        "language": "en",
+        "imageLinks": {
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780262033848-M.jpg"
+        }
+      }
+    }
+  ]
+}
