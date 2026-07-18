@@ -1,0 +1,35 @@
+@use "../../styles/variables" as *;
+
+.card {
+  background-color: $card-background;
+  border-radius: $border-radius;
+  box-shadow: $card-shadow;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: $text-dark;
+  margin: 0 0 0.25rem 0;
+}
+
+.authors {
+  color: $text-light;
+  font-size: 0.85rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: $text-dark;
+}

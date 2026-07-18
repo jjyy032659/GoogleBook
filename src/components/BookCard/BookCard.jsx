@@ -4,7 +4,7 @@ function BookCard(props) {
   const book = props.book.volumeInfo;
 
   // some books don't have an image so we use a placeholder
-  let image = "https://via.placeholder.com/128x195?text=No+Image";
+  let image = "https://placehold.co/128x195?text=No+Cover";
   if (book.imageLinks) {
     image = book.imageLinks.thumbnail;
   }
@@ -21,7 +21,10 @@ function BookCard(props) {
   }
 
   return (
-    <article className={styles.card}>
+    <article
+      className={styles.card}
+      onClick={() => props.onBookClick(props.book)}
+    >
       <img src={image} alt={book.title} />
       <h3>{book.title}</h3>
       <p className={styles.authors}>{authors}</p>

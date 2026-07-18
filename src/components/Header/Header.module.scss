@@ -1,0 +1,12 @@
+@use "../../styles/variables" as *;
+
+.header {
+  background-color: $primary;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.header p {
+  color: $accent;
+}

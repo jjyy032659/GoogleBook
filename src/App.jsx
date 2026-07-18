@@ -2,11 +2,13 @@ import { useState } from "react";
 import Header from "./components/Header/Header";
 import SearchForm from "./components/SearchForm/SearchForm";
 import BookGrid from "./components/BookGrid/BookGrid";
+import BookModal from "./components/BookModal/BookModal";
 import { searchBooks } from "./api/booksApi";
 
 function App() {
   const [books, setBooks] = useState([]);
   const [hasSearched, setHasSearched] = useState(false);
+  const [selectedBook, setSelectedBook] = useState(null);
 
   async function handleSearch(query) {
     const results = await searchBooks(query);
@@ -21,7 +23,10 @@ function App() {
       {hasSearched && books.length === 0 && (
         <p>No books found, try another search!</p>
       )}
-      <BookGrid books={books} />
+      <BookGrid books={books} onBookClick={setSelectedBook} />
+      {selectedBook && (
+        <BookModal book={selectedBook} onClose={() => setSelectedBook(null)} />
+      )}
     </div>
   );
 }
