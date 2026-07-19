@@ -2,8 +2,11 @@
 import mockData from "./mockBooks.json";
 
 export async function searchBooks(query) {
-  const url = "https://www.googleapis.com/books/v1/volumes?q=" + query;
-
+  const url =
+    "https://www.googleapis.com/books/v1/volumes?q=" +
+    encodeURIComponent(query) +
+    "&maxResults=20&key=" +
+    import.meta.env.VITE_BOOKS_API_KEY;
   const response = await fetch(url);
 
   // if google blocks us, use the saved data instead
