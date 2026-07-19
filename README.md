@@ -1,7 +1,5 @@
 # Book Finder
 
-The project is live at https://jjyy032659.github.io/GoogleBook/
-
 A React app that lets you search for books using the Google Books API. Type in a search, get a grid of books, and click on any book to see more details in a popup.
 
 ## Features
