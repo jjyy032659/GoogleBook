@@ -1,16 +1,20 @@
-# React + Vite
+# Book Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project is live at https://jjyy032659.github.io/GoogleBook/
 
-Currently, two official plugins are available:
+A React app that lets you search for books using the Google Books API. Type in a search, get a grid of books, and click on any book to see more details in a popup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Search for any book by keyword
+- Responsive grid of book cards (works on mobile too)
+- Click a book card to open a modal with more info (publisher, published date, page count, language etc)
+- Shows a message when no books are found
+- Falls back to saved mock data if the Google API rate limits you (this happened to me a lot during development!)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech used
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- SCSS modules with a shared variables file for the colour palette
+- Google Books API
+- Vitest + React Testing Library for tests
